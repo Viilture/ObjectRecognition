@@ -80,8 +80,7 @@ def mouse_callback(event, x, y, flags, param):
 
 
 def run(
-    weights="yolov8x.pt",
-    source=None,
+    weights="yolov8n.pt",
     device="cpu",
     view_img=True,
     save_img=False,
@@ -111,6 +110,8 @@ def run(
              Region_thickness (int): Толщина региона.
          """
     vid_frame_count = 0
+
+    source = "E:/MYFILE/Program/Learning/ProjNeuro/OpenCV/TrajectoryTracking/TrajectoryTracking/LiveCAM.mp4"
 
     # Check source path
     if not Path(source).exists():
@@ -222,7 +223,6 @@ def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument("--weights", type=str, default="yolov9-e.pt", help="initial weights path")
     parser.add_argument("--device", default="", help="cuda device, i.e. 0 or 0,1,2,3 or cpu")
-    parser.add_argument("--source", type=str, required=True, help="video file path")
     parser.add_argument("--view-img", action="store_true", help="show results")
     parser.add_argument("--save-img", action="store_true", help="save results")
     parser.add_argument("--exist-ok", action="store_true", help="existing project/name ok, do not increment")

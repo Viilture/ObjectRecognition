@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 5.0.2, 2024-07-09T19:15:12. -->
+<!-- Written by QtCreator 5.0.2, 2024-07-09T20:38:57. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -123,7 +123,6 @@
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/MYFILE/Program/MyProjects/RecognitionYOLA/yolov8_region_counter.py</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{ab11b9e2-aa95-445a-82d0-e9fc3375bad3}</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">E:\MYFILE\Program\MyProjects\RecognitionYOLA\yolov8_region_counter.py</value>
-    <value type="QString" key="RunConfiguration.Arguments">--source &quot;E:/MYFILE/Program/Learning/ProjNeuro/OpenCV/TrajectoryTracking/TrajectoryTracking/LiveCAM.mp4&quot;</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
