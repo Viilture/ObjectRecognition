@@ -1,0 +1,3 @@
+{
+    "files": ["main.py","frame_corner_point.py","yolov8_region_counter.py"]
+}
